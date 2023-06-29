@@ -1,0 +1,128 @@
+
+body{
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ),
+ url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+ #survey-form{
+    background-color: #282847;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    margin: 25px auto;
+    opacity: 0.93;
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-left: 40px;
+ }
+ #title{
+display:flex;
+justify-content: center;
+font-family: 'Montserrat', sans-serif;
+margin: 50px auto;
+font-weight: bold;
+font-size:40px ;
+color: white;
+ }
+ #description{
+    display:flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-bottom: 40px;
+ }
+ label{
+    color: white;
+    font-size: 20px;
+   font-weight: 300;
+   margin: 10px 0;
+ }
+ p{
+    color: white;
+    font-size: 19px;
+   font-weight: 400;
+ }
+ #name, #email, #number{
+    margin: 12px 0;
+    width: 93%;
+    height: 40px;
+    border-radius: 5px;
+ }
+ #name:focus, #email:focus, #number:focus{
+    background-color: rgb(164, 204, 241);
+   }
+ #dropdown
+ {
+    margin: 12px 0;
+    width: 94%;
+    height: 40px;
+    border-radius: 5px;
+}
+::placeholder {
+    padding-left: 10px;
+    font-size: 15px;
+}
+select{
+    padding-left: 10px;
+    font-size: 15px; 
+    cursor: pointer;
+}
+.radio-container{
+    margin-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 99%;
+    
+}
+.radio-items{
+    display: flex;
+    margin-right: 184px;
+    justify-content: center; 
+}
+#last-radio{
+    margin-right: -1px;
+}
+#def, #maybe, #not-sure{
+    margin-right: 8px;
+}
+.checks{
+    width: 15px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.checklabel{
+    display: inline-block;
+    cursor: pointer;
+}
+textarea::placeholder {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+textarea{
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: 94.5%;
+}
+#submit{
+    width: 95.5%;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: rgba(136, 136, 206, 0.7);
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300 bold;
+    cursor: pointer;
+}
+#submit:hover{
+        background-color: white;
+        color: #7170ba;
+        border: 3px solid gainsboro;
+    }
+  
+  
